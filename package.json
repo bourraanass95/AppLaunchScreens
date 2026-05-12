@@ -3,7 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-Agent  "scripts": {
+  "scripts": {
     "dev": "vite dev",
     "build": "vite build",
     "build:dev": "vite build --mode development",
