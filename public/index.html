@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShotForge — Beautiful App Store screenshots in minutes</title>
+  <meta name="description" content="Turn raw app screenshots into stunning App Store and Play Store marketing assets in seconds.">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:title" content="ShotForge — Beautiful App Store screenshots in minutes">
+  <meta property="og:description" content="Beautiful App Store and Play Store screenshots, no design skills required.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles-DpnFA_7O.css">
+  <style>
+    /* Theme initialization to prevent flash */
+    html { color-scheme: light; }
+    html.dark { color-scheme: dark; }
+    html.dark body { background: #0f172a; color: #f8fafc; }
+  </style>
+  <script>
+    (function() {
+      try {
+        var k = 'shotforge:theme';
+        var t = localStorage.getItem(k);
+        if (t !== 'light' && t !== 'dark') {
+          t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        if (t === 'dark') document.documentElement.classList.add('dark');
+        document.documentElement.style.colorScheme = t;
+      } catch(e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/assets/index-Duy1nuUP.js"></script>
+</body>
+</html>
